@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+body {
+    background: rgb(78, 55, 55);
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.back, .buttonback{
+    margin-top: 20px;
+    margin-left: 20px;
+    position: absolute;
+    justify-content: left;
+    align-self: start;
+    align-items: start;
+}
+.buttonback{
+    background-color: transparent;
+    border: 2px solid #ece0df; /* Rojo */
+    color: #ffffff;
+    padding: 12px 28px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: color 0.3s, background-color 0.3s;
+}
+.buttonback:hover {
+    color: white;
+    background-color: #2e2d0a;
+  }
+
+
+header {
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    text-align: center;
+    padding: 28px;
+    font-size: 26px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+    url('./img/fondo-lima.webp');
+    background-size: cover;
+    background-position: center;
+}
+
+
+main {
+    padding: 20px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), ;
+    min-height: auto; 
+}
+
+.restaurants-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.restaurant {
+    background-color: #321c44;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    color: #f7e7e7;
+}
+
+.restaurant h2 {
+    margin: 0 0 10px;
+    color: #ffffff; /* Verde selva */
+
+}
+
+.restaurant p {
+    margin: 5px 0;
+    color: #d8d8d8;
+    font-size: 14px;
+}

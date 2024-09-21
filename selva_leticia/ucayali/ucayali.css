@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body {
+    background: linear-gradient(to bottom right, #B0E57C, #9CDA9E);
+    margin: 2;
+    padding: 4;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    background: linear-gradient(to bottom right,  #5dc260, #7CB342, #52c756);
+    color: white;
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 5px;
+    font-size: 27px;
+    border-radius: 10px;
+    max-width: 90%;
+    margin: 30px auto; 
+}
+
+main {
+    padding: 20px;
+}
+
+.restaurants-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; 
+    max-width: 1200px;
+    margin: 0 auto; 
+}
+
+.restaurant {
+    background-color: #4CAF50;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    background-image: url('https://example.com/selva-background.jpg'); 
+    background-size: cover;
+    background-position: center;
+    color: #fafcfa; 
+    position: relative;
+    overflow: hidden; 
+}
+
+.restaurant h2 {
+    margin: 0 0 10px;
+    font-size: 20px;
+    color: #fafcfa; 
+}
+
+.restaurant p {
+    margin: 5px 0;
+    color: #fafcfa; 
+    font-size: 14px;
+}
+
+
+.restaurant-content {
+    position: relative;
+    z-index: 1; 
+    background-color: rgba(255, 255, 255, 0.8); 
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.restaurant img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+.btn {
+    font-family: 'Poppins', sans-serif;
+    margin-top: 40px;
+    margin-bottom: 32px;
+    margin-left: 530px; /* Puedes ajustar esto si necesitas que esté más centrado */
+    text-align: center;
+    display: inline-block;
+    background: linear-gradient(to bottom right,  #5dc260, #7CB342, #52c756); 
+    color: white; 
+    padding: 32px 35px; 
+    text-align: center;
+    text-decoration: none; 
+    font-size: 24px;
+    font-weight: 690;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn:hover {
+    transform: translateY(-5px); /* Mover el botón hacia arriba */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Aumentar sombra */
+    background-color: #45a049; /* Cambiar color de fondo */
+}
+
+

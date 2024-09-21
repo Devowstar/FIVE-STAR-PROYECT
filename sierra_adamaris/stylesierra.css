@@ -1,0 +1,109 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+.back, .buttonback{
+    margin-top: 20px;
+    margin-left: 20px;
+    position: absolute;
+    justify-content: left;
+    align-self: start;
+    align-items: start;
+}
+.buttonback{
+    background-color: transparent;
+    border: 2px solid #ece0df; /* Rojo */
+    color: #ffffff;
+    padding: 12px 28px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: color 0.3s, background-color 0.3s;
+}
+.buttonback:hover {
+    color: white;
+    background-color: #230a2e;
+  }
+
+
+header {
+    background: linear-gradient(rgba(0, 0, 0, 0.247), rgba(0, 0, 0, 0.247)), 
+                url('./img/fondosierra.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #b1f0b4;
+    padding: 20px 0;
+    font-size: 26px;
+    text-align: center;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f3f3f3;
+
+font-family: 'Poppins', sans-serif;
+ 
+}
+
+header {
+    background-color: #131129;
+    color: #f3f3f3;
+    padding: 40px 0;
+    font-size: 32px;
+    letter-spacing: 2px;
+    font-weight: 5;
+}
+.induction{
+    font-size: 18px;
+    margin-left: 240px;
+    margin-right: 240px;
+    text-align: center;
+    margin-top: -30px;
+}
+main {
+    background: linear-gradient(120deg, #19191a, #19191a, #19191a);
+    padding: 20px;
+    min-height: auto; 
+}
+
+.departments {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+}
+#huancavelica{
+    flex-direction: column;
+}
+.huanca{
+    font-size: 25px;
+    margin-top: -8px;
+}
+
+
+
+.department {
+    background-color: #252242;
+    color: rgb(212, 231, 214);
+    width: 200px;
+    height: 150px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    font-weight: 535;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.department:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+}

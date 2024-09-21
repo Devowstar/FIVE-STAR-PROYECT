@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sabores de la Costa</title>
+    <link rel="stylesheet" href="costa.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link rel="icon" href="costa.icon.png" type="image/png">
+   
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Sevillana&family=Work+Sans:ital,wght@0,100;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body> 
+    <a class="back" href="../inicio2/inicio2.html"><button type="button" class="buttonback">Volver</button></a>
+    <header>
+        <h1 class="text-with-border">Sabores de la Costa</h1>
+<h3 class="induction">¡Saborea la frescura del mar en cada bocado de la costa peruana! 🌊🍤</h3>
+</header>
+<main>
+    <div class="departments">
+        <div class="department" onclick="redirectTo('ica/ica.html')">
+            <img src="./costa.principal/1.png" alt="Imagen de Ica" height="50">
+            Ica
+        </div>
+        <div class="department" onclick="redirectTo('./Lima/lima.html')">
+            <img src="./costa.principal/1.png" alt="Imagen de Lima" height="50">
+            Lima
+        </div>
+        <div class="department" onclick="redirectTo('./piura/piura.html')">
+            <img src="./costa.principal/1.png" alt="Imagen de Piura" height="50">
+            Piura
+        </div>
+        <div class="department" id="lambayeque" onclick="redirectTo('./lambayeque/lambayeque.html')">
+            <img src="./costa.principal/1.png" alt="Imagen de Lambayeque" height="50" class="lambay">
+            <p class="lambayeque">Lambayeque</p>
+        </div>
+        <div class="department" onclick="redirectTo('./laLibertad/laLibertad.html')">
+            <img src="./costa.principal/1.png" alt="Imagen de La Libertad" height="50">
+            La Libertad
+        </div>
+        <div class="department" onclick="redirectTo('./Arequipa/Arequipa.html')">
+            <img src="./costa.principal/1.png" alt="Imagen de Arequipa" height="50">
+            Arequipa
+        </div>
+        <div class="department" onclick="redirectTo('./tacna/tacna.html')">
+            <img src="./costa.principal/1.png" alt="Imagen de Tacna" height="50">
+            Tacna
+        </div>
+    </div>
+</main>
+
+    <script src="costa.js"></script>
+</body>
+</html>
