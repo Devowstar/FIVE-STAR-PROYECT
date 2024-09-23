@@ -13,7 +13,7 @@ const restaurants = [
         imageUrl: "./img/collpa.jpg" },
     { name: "Suchiche Café & Bar", 
         address: "Jr. Lamas 245, Tarapoto 22200 Perú",
-        imageUrl: "./img/Suchiche.jpg" },
+        imageUrl: "./img/suchiche.jpg" },
     { name: "Liria Restaurant",
          address: "Av. circunvalación 1896, Tarapoto 22202 Perú",
          imageUrl: "./img/liria.jpg" },
